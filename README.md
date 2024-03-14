@@ -1,7 +1,7 @@
 # Catch Me If You Can
 An interactive game where a box element moves randomly within the boundaries of the viewport when the mouse cursor hovers over it. This creates an engaging user experience, challenging users to catch the moving box with their mouse cursor.
 
-Hosted link: https://amancantgit.github.io/Catch-Me-If-You-Can/
+Click [here](https://amancantgit.github.io/Catch-Me-If-You-Can/) to play.
 
 ## Features :
 - Interactive box movement
