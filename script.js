@@ -1,6 +1,6 @@
 const box = document.getElementById('box');
 
-
+// function to move the box randomly within the viewport
 box.addEventListener('mouseover', function(){
   const viewportWidth = window.innerWidth;
   const viewportHeight = window.innerHeight;
@@ -14,4 +14,13 @@ box.addEventListener('mouseover', function(){
   box.style.left = newX + 'px';
   box.style.top = newY + 'px';
 })
-// function to move the box randomly within the viewport
+
+box.addEventListener('mouseover', (()=> {
+  box.textContent = `YOU CAN'T`
+}))
+
+box.addEventListener('mouseout', (()=> {
+  setTimeout(()=>{
+    box.textContent = 'Catch Me'
+  }, 1000)
+}))
